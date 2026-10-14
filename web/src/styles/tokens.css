@@ -1,0 +1,57 @@
+/* 设计令牌：亮/暗两套色板。组件一律只消费变量，不写死颜色。 */
+:root,
+[data-theme='light'] {
+  --bg: #f6f7f9;
+  --bg-subtle: #eceef1;
+  --card: #ffffff;
+  --card-hover: #f9fafb;
+  --fg: #1a1d21;
+  --fg-muted: #5c6470;
+  --fg-faint: #9aa1ab;
+  --border: #e2e5ea;
+  --border-strong: #c9ced6;
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+  --accent-soft: #eff4ff;
+  --accent-fg: #ffffff;
+  --success: #16a34a;
+  --success-soft: #ecfdf3;
+  --warning: #d97706;
+  --warning-soft: #fff7ed;
+  --danger: #dc2626;
+  --danger-soft: #fef2f2;
+  --dup: #b91c1c;
+  --dup-soft: #fee2e2;
+  --shadow: 0 1px 3px rgba(16, 24, 40, 0.08), 0 1px 2px rgba(16, 24, 40, 0.04);
+  --shadow-lg: 0 8px 24px rgba(16, 24, 40, 0.12);
+  --code-bg: #f4f5f7;
+  --scrollbar: #cbd0d8;
+}
+
+[data-theme='dark'] {
+  --bg: #14161a;
+  --bg-subtle: #1b1e24;
+  --card: #1d2026;
+  --card-hover: #23262e;
+  --fg: #e8eaed;
+  --fg-muted: #a2a9b4;
+  --fg-faint: #6b727d;
+  --border: #2c3038;
+  --border-strong: #3d424c;
+  --accent: #4f83f1;
+  --accent-hover: #6b98f5;
+  --accent-soft: #1c2740;
+  --accent-fg: #ffffff;
+  --success: #4ade80;
+  --success-soft: #14301f;
+  --warning: #fbbf24;
+  --warning-soft: #342810;
+  --danger: #f87171;
+  --danger-soft: #3a1a1a;
+  --dup: #fca5a5;
+  --dup-soft: #3a1d1d;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --code-bg: #262a32;
+  --scrollbar: #41464f;
+}
